@@ -1,4 +1,72 @@
+/* ↓↓↓ content wrapper ↓↓↓ */
 .App {
-  text-align: center;
+  margin-top: 100px;
 }
+
+/* ↓↓↓ top nav bar ↓↓↓ */
+.topNav {
+  display: flex;
+  flex-grow: 1;
+  height: 70px;
+  list-style-type: none;
+  margin: 0;
+}
+.topNav__item {
+    display: block;
+    height: 70px;
+    transition        : all 0.25s linear;
+    -moz-transition   : all 0.25s linear;
+    -webkit-transition: all 0.25s linear;
+    -o-transition     : all 0.25s linear;
+}
+.topNav__item:hover {
+  background-color: black;
+}
+.topNav__item a {
+  color: #fff;
+  display: block;
+  height: 70px;
+  margin: 0 10px;
+  padding-top: 23px;
+}
+.topNav__item a:hover {
+  color: #fff;
+  text-decoration: none;
+}
+
+/* ↓↓↓ card ↓↓↓ */
+.card__form {
+  margin-bottom: 40px;
+}
+.card__wrapper {  
+  border: 1px solid#cccccc;
+  height: auto;
+}
+.card__wrapper a {
+    color: #333;
+    display: block;
+    overflow: hidden;
+}
+.card__wrapper img {
+    width: 90px;
+    height: 90px;
+    float: left;
+}
+.card__wrapper a > div {
+    width: calc(100% - 75px - 1rem);
+    float: right;
+    padding-left: 15px;
+}
+.card__wrapper-btns {
+  margin: 10px;
+  text-align: right;
+}
+.card__wrapper-btns .btn__edit {
+  margin-right: 5px;
+}
+
+
+
+
+
 
